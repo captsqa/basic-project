@@ -216,3 +216,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,java,maven,eclipse,windows,netbeans,intellij
+
+# Logs directory
+logs/*.log
+
+#Screenshots Directory
+screenshots/*.png
+
+# Generated Test Reports
+test-output/
