@@ -5,7 +5,7 @@
  * Instructor: Jean-francois Nepton<br>
  * Created: Oct 18, 2017
  */
-package com.sqa.cp.core;
+package com.sqa.cp.helpers;
 
 import java.io.*;
 import java.util.*;

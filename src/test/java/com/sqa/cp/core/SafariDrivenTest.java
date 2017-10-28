@@ -5,9 +5,9 @@ import java.util.concurrent.*;
 import org.openqa.selenium.safari.*;
 import org.testng.annotations.*;
 
-public class SafariTest extends Core {
+public class SafariDrivenTest extends Core {
 
-	public SafariTest(String baseURL) {
+	public SafariDrivenTest(String baseURL) {
 		super(baseURL);
 	}
 

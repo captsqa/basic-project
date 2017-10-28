@@ -5,9 +5,9 @@ import java.util.concurrent.*;
 import org.openqa.selenium.firefox.*;
 import org.testng.annotations.*;
 
-public class FirefoxTest extends Core {
+public class FirefoxDrivenTest extends Core {
 
-	public FirefoxTest(String baseURL) {
+	public FirefoxDrivenTest(String baseURL) {
 		super(baseURL);
 	}
 

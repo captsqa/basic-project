@@ -25,7 +25,6 @@ public class ChromeDrivenTest extends Core {
 
 	@AfterClass(alwaysRun = true)
 	public void tearDown() throws Exception {
-		// Close the driver and quits the browser.
 		this.driver.quit();
 	}
 }

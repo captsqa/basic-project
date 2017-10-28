@@ -21,6 +21,9 @@ package com.sqa.cp.core;
 import org.apache.log4j.*;
 import org.openqa.selenium.*;
 
+import com.sqa.cp.helpers.*;
+import com.sqa.cp.helpers.test.*;
+
 public class Core {
 
 	private static int count = 1;
@@ -73,6 +76,11 @@ public class Core {
 
 	public Logger getLog() {
 		return this.log;
+	}
+
+	// Non static method to get property values given a key
+	public String getProp(String propName) {
+		return AutoBasics.getProp(propName, "src/main/resources/", "config.properties", getLog());
 	}
 
 	// Method that checks if the element is present on the page.

@@ -1,5 +1,5 @@
 # Basic Automation Project
-## Automation Testing Concepts
+## Automation Test
 
 *Automation to cover basic test functionalities and core concepts*
 
